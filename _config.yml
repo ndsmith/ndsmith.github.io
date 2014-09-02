@@ -10,3 +10,4 @@ github_username:  ndsmith
 
 # Build settings
 markdown: kramdown
+permalink: pretty
