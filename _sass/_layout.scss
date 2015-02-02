@@ -39,6 +39,7 @@
 nav{
     text-align: center;
     line-height: 56px;
+    
     a{
         display: inline-block;
         margin-left: 80px;
@@ -52,21 +53,14 @@ nav{
         @media (min-width: 768px){
             margin-left: 80px;
         }
-        
-        
+         
         @media (max-width: 767px){
             margin-left: 15px;
         }
-        
-        
+           
         @media (max-width: 480px){
             margin-left: 5px;
         }
-            
-            
-            
-        
-        
     }
 }
 
@@ -98,6 +92,10 @@ nav{
     margin-left: 0;
     float: right;
     text-align: right;
+    
+    @media (max-width: 480px){
+        text-align: left;
+    }
 } 
 
 .footer-col-wrapper {
