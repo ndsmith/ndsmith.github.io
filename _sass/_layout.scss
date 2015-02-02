@@ -113,15 +113,24 @@ nav{
     padding-left: $spacing-unit / 2;
     
     @media (max-width: 480px){
-        margin-bottom: 0px
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
 
 
 .footer-col-3 {
+    text-align: right;
     float: right;
     margin-bottom: $spacing-unit / 2;
     padding-right: $spacing-unit / 2;
+    
+    @media (max-width: 350px){
+        text-align: left;
+        float: left;
+        padding-left: $spacing-unit / 2;
+        margin-top: -$spacing-unit / 2;
+    }
 }
 
 
@@ -176,6 +185,10 @@ nav{
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+#center-post-meta{
+    text-align: center;
 }
 
 .post-content {
