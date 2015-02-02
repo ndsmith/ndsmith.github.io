@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Testpage
-permalink: /testpage/
+title: Research
+permalink: /research/
 ---
 
 This is a test page to see if I have *actually* learned **anything** about markdown. If I instert a [link to my website](http://nathanaelsmith.org "My Homepage"). 

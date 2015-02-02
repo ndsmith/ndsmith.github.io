@@ -3,12 +3,25 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 5px solid $grey-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+
+#logo{
+    text-align: center;
+    height: 175px;
+    width: 175px;
+}
+
+.logo-box{
+    display: block;
+    text-align: center;
+}
+
+
 
 .site-title {
     font-size: 26px;
@@ -24,7 +37,7 @@
 }
 
 .site-nav {
-    float: right;
+    text-align: center;
     line-height: 56px;
 
     .menu-icon {
@@ -37,7 +50,7 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 80px;
         }
     }
 
@@ -101,11 +114,15 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
+.contact-list{
     list-style: none;
     margin-left: 0;
 }
+.social-media-list{
+    list-style: none;
+    margin-left: 0;
+    float: right;
+} 
 
 .footer-col-wrapper {
     font-size: 15px;
@@ -167,6 +184,7 @@
 
 .page-heading {
     font-size: 20px;
+    text-align: center
 }
 
 .post-list {
@@ -187,7 +205,6 @@
     display: block;
     font-size: 24px;
 }
-
 
 
 /**
@@ -233,4 +250,11 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Home
+ */
+.home-text{
+    text-align: center;
 }

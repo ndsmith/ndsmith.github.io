@@ -1,23 +1,22 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="home-text" >Nathanael Smith</h1>
+    
+    <p> 
+        <img class="img-center" src="/items/circlehead.jpg" alt="A picture of Nathanael" height="225px" width="225px" >
+    </p>
+    
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    
+    <p class="home-text" class="body"> <strong>I am a doctoral student in Philosophy at the <a href="http://www.rochester.edu">University of Rochester</a></strong>.<br />While my research interests range quite widely, I am especially interested in epistemology and metaphysics.</p>
+    
+    <p class="home-text" class="body">To learn more about my academic history, see my <a href="/items/nathanael%20smith%20short%20cv%202014.pdf">CV</a>.</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
 
 </div>
