@@ -133,15 +133,6 @@ nav{
     }
 }
 
-.footerlink {
-    color: $grey-color;
-    text-decoration: none;
-
-    &:hover {
-        color: $grey-color-light;
-    }
-}
-
 
 
 /**
@@ -175,12 +166,17 @@ nav{
     font-size: 24px;
 }
 
+.rss-subscribe{
+    text-align: center;
+    font-size: $small-font-size;
+}
 
 /**
  * Posts
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    text-align: center;
 }
 
 .post-title {
@@ -194,7 +190,9 @@ nav{
     }
 }
 
-#center-post-meta{
+
+.post-close {
+    margin-bottom: $spacing-unit;
     text-align: center;
 }
 
