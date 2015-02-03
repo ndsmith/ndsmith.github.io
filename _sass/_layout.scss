@@ -133,7 +133,14 @@ nav{
     }
 }
 
+.footerlink {
+    color: $grey-color;
+    text-decoration: none;
 
+    &:hover {
+        color: $grey-color-light;
+    }
+}
 
 
 
