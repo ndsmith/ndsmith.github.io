@@ -1,7 +1,7 @@
 # Site settings
 title: Nathanael Smith
 email: contact@nathanaelsmith.org
-description: > # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+description: Nathanael Smith is a graduate student in philosophy at the University of Rochester who works primarily in epistemology and metaphysics, the digital humanities. Previously a student at Western Michigan University and the University of Oxford, he also likes to learn code and make websites and explore the digital humanities. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nathanaelsmith.org" # the base hostname & protocol for your site
 twitter_username: nathanaeldsmith
