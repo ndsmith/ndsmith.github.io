@@ -113,7 +113,7 @@ nav{
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
     
-    @media (max-width: 380px){
+    @media (max-width: 390px){
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
@@ -126,7 +126,7 @@ nav{
     margin-bottom: $spacing-unit / 2;
     padding-right: $spacing-unit / 2;
     
-    @media (max-width: 380px){
+    @media (max-width: 390px){
         text-align: left;
         float: left;
         padding-left: $spacing-unit / 2;
