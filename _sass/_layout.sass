@@ -31,20 +31,38 @@ nav
   text-align: center
   line-height: 56px
 
+.navbox
+  display: inline-block
+  min-width: 90px
+  margin-left: 80px
+  padding: 0px 5px 0px
+  color: $text-color
+  background: linear-gradient(white, white 50%, $grey-color-dark 50%, $grey-color-dark)
+  background-size: 100% 202%
+  transition: all 0.1s ease
+  animation: down-bump 0.4s ease
 
-  a
-    display: inline-block
+  &:hover
+    background-position: 100% 100%
+    animation: up-bump 0.4s ease
+    color: white
+  @media (min-width: 768px)
     margin-left: 80px
-    color: $text-color
-    line-height: $base-line-height
-    &:hover
-      color: $grey-color-light
-    @media (min-width: 768px)
-      margin-left: 80px
-    @media (max-width: 767px)
-      margin-left: 15px
-    @media (max-width: 480px)
-      margin-left: 5px
+  @media (max-width: 767px)
+    margin-left: 15px
+  @media (max-width: 495px)
+    margin-left: 5px
+    min-width: 0px
+    padding: 0px
+
+/* a
+ *    display: inline-block
+ *    margin-left: 80px
+ *    min-width: 90px
+ *    color: $text-color
+ *    line-height: $base-line-height */
+
+
 
 #first-nav
   margin-left: 0px
