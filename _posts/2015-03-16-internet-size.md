@@ -17,7 +17,7 @@ There is a *lot* of data on the internet---and the data is growing. Here are a f
 - Back in 2008, [Google announced][4] that it had processed 1 trillion unique URLs---and that was 7 years ago!
 - According to websitemagazine.com, Google had indexed 200 terabytes of data as of 2014 ([source][5]).
 - In February 2015, Netcraft.com registered more than 883 million different websites ([source][7]).
-- And, in case you were wondering, reports that the internet is mostly porn have been greatly exaggerated ([source][11])
+- And, in case you were wondering, reports that the internet is mostly porn have been greatly exaggerated ([source][11]).
 - Here is a nice little infographic summing up the per minute data generation as of 2012 for a variety of websites ([source][8]).
 
 This volume of data generates a host of interesting questions for the philosopher. I plan to reflect on a few of these issues in future posts, so stay tuned!  
