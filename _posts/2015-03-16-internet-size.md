@@ -14,7 +14,7 @@ There is a *lot* of data on the internet---and the data is growing. Here are a f
 - There are 500 million new tweets per day on Twitter ([source][3]).
 - In 2014, there were an average of 1.83 million public photos uploaded to Flickr every day ([source][9]).
 - As of May 2014, Pinterest had 30 billion pins ([source][10]).
-- Back in 2008, [Google announced][4] that it had processed 1 trillion unique URLs&emdash;and that was 7 years ago!
+- Back in 2008, [Google announced][4] that it had processed 1 trillion unique URLs---and that was 7 years ago!
 - According to websitemagazine.com, Google had indexed 200 terabytes of data as of 2014 ([source][5]).
 - In February 2015, Netcraft.com registered more than 883 million different websites ([source][7]).
 - And, in case you were wondering, reports that the internet is mostly porn have been greatly exaggerated ([source][11])
