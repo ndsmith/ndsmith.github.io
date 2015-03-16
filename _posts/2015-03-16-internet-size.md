@@ -6,7 +6,7 @@ categories: information, internet, social network, size of internet
 permalink: /blog/data-tsunami/
 ---
 
-There is a *lot* of data on the internet--and the data is growing. Here are a few facts I've collected:
+There is a *lot* of data on the internet---and the data is growing. Here are a few facts I've collected:
 
 - Facebook has, on average, 890 million active users per day ([source][6]).
 - On average, there are 70 million photos posted to Instagram per day ([source][1]).
