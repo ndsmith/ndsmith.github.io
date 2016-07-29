@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Things"
-date:   2015-07-28 23:30:00
+date:   2015-07-28 23:30:00 -0500
 categories: DH, update, philosophy
 permalink: /blog/new-things/
 ---

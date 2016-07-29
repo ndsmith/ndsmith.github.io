@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Data Tsunami
-date:   2015-03-16 01:00:00
+date:   2015-03-16 01:00:00 -0500
 categories: information, internet, social network, size of internet
 permalink: /blog/data-tsunami/
 ---

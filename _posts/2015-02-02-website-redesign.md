@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website Redesign"
-date:   2015-02-02 01:46:59
+date:   2015-02-02 01:46:59 -0500
 categories: website update
 permalink: /blog/website-redesign/
 ---
