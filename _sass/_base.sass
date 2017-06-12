@@ -172,8 +172,13 @@ pre
   width: auto
   height: 66%
   background-color: blue
+  border-top-left-radius: 5px
+  border-top-right-radius: 5px
   > img
     height: 100%
+    width: 100%
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
 
 
 .card_title
@@ -187,3 +192,22 @@ pre
 
 #dhphilogo
   height: 222px
+
+
+/**
+ * Centered Text Button
+ */
+.button_wrapper
+  text-align: center
+  width: 100%
+
+.button
+  display: inline-block
+  background-color: $brand-color
+  padding: $spacing-unit / 2
+  border-radius: 5px
+
+#override
+  color: white
+
+
