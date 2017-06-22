@@ -154,12 +154,16 @@ pre
 /**
  * Display Cards
  */
-.cards_section
+.cards-section
   display: flex
   flex-wrap: wrap
   justify-content: space-around
   max-width: 100%
 
+.card-section a
+  animation: float 0.4s ease
+  &:hover
+    animation: float 0.4s ease
 
 .card
   width: 333px
@@ -167,11 +171,16 @@ pre
   margin: 10px
   border-radius: 5px
   background-color: $grey-color-light
+  transition: box-shadow .25s ease-in-out
+  box-shadow: 0px 0px 0px white
+  &:hover
+    transition: box-shadow .25s ease-in-out
+    box-shadow: 0px 0px 50px $grey-color-dark
 
-.card_image
+.card-image
   width: auto
   height: 66%
-  background-color: $grey-color-light
+  background-color: lighten(#5E5E66, 10%)
   border-top-left-radius: 5px
   border-top-right-radius: 5px
   > img
@@ -180,24 +189,22 @@ pre
     border-top-left-radius: 5px
     border-top-right-radius: 5px
 
-
-.card_title
+.card-title
   text-color: $text-color
   margin: 10px
 
-.card_blurb
+.card-blurb
   text-color: $text-color
   font-size: 11pt
   margin: 10px
 
-.cards_section a 
+.cards-section a 
   color: black
-
 
 /**
  * Centered Text Button
  */
-.button_wrapper
+.button-wrapper
   text-align: center
   width: 100%
 
@@ -206,8 +213,13 @@ pre
   background-color: $brand-color
   padding: $spacing-unit / 2
   border-radius: 5px
+  transition: box-shadow .25s ease-in-out
+  box-shadow: 0px 0px 0px white
+  &:hover
+    transition: box-shadow .25s ease-in-out
+    box-shadow: 0px 0px 50px $grey-color-dark
 
-.button_link
+.button-link
   color: white
   &:hover
-    color: black
+    color: white

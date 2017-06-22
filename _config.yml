@@ -12,6 +12,6 @@ facebook_username: nathanael.d.smith
 markdown: kramdown
 permalink: pretty
 
-gems:
+plugins:
   - jekyll-sitemap
   - bourbon
