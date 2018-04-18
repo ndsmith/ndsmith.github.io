@@ -119,6 +119,7 @@ nav
 .post-list
   margin-left: 0
   list-style: none
+  text-align: center
   > li
     margin-bottom: $spacing-unit
 
@@ -138,9 +139,9 @@ nav
   margin-left: auto
   margin-right: auto
   max-width: 80%
-  img 
+  img
     display: inline-block
-  p 
+  p
     font-size: 16px
     text-align: center
     font-style: italic
@@ -150,10 +151,10 @@ nav
   margin-left: auto
   margin-right: auto
   max-width: 30%
-  max-height: auto 
-  img 
+  max-height: auto
+  img
     display: inline-block
-  p 
+  p
     font-size: 16px
     text-align: center
     font-style: italic
@@ -202,3 +203,90 @@ nav
  */
 .centered-text
   text-align: center
+
+
+/**
+ * Display Cards
+ */
+.cards-section
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  max-width: 100%
+  padding-bottom: $spacing-unit
+
+.card
+  width: 333px
+  height: 333px
+  margin: 10px
+  border-radius: 5px
+  background-color: $grey-color-light
+  transition: box-shadow .25s ease-in-out
+  box-shadow: 0px 0px 0px white
+  &:hover
+    transition: box-shadow .25s ease-in-out
+    box-shadow: 0px 0px 50px $grey-color-dark
+
+.card-image
+  width: auto
+  height: 66%
+  background-color: lighten(#5E5E66, 10%)
+  border-top-left-radius: 5px
+  border-top-right-radius: 5px
+  > img
+    height: 100%
+    width: 100%
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+
+.card-title
+  text-color: $text-color
+  margin: 10px
+  text-align: center
+
+.card-blurb
+  text-color: $text-color
+  font-size: 11pt
+  margin: 0px $spacing-unit
+
+.cards-section a
+  color: black
+
+
+/**
+ * Centered Text Button
+ */
+.button-wrapper
+  text-align: center
+  width: 100%
+  display: block
+
+.button
+  display: inline-block
+  background-color: $brand-color
+
+  border-radius: 5px
+  transition: box-shadow .25s ease-in-out
+  box-shadow: 0px 0px 0px white
+  margin: $spacing-unit
+  &:hover
+    transition: box-shadow .25s ease-in-out
+    box-shadow: 0px 0px 50px $grey-color-dark
+
+.button-link
+  color: white
+  &:hover
+    color: white
+.button-text
+  font-size: $base-font-size
+  padding: $spacing-unit / 2
+  text-align: center
+
+/**
+ * Papers List
+  */
+.paper-title
+  margin-bottom: $spacing-unit / 4
+.abstract
+  font-size: $small-font-size
+  margin-left: $spacing-unit / 2
