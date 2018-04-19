@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Terms of Service: No options for data privacy"
-date: 2018-04-17
+date: 2018-04-17 12:01:00
 categories: digital humanities, ethics, technology, security, privacy
 permalink: /blog/tos-no-options/
 ---
