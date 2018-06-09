@@ -4,7 +4,7 @@ email: contact@nathanaelsmith.org
 description: Nathanael Smith is a graduate student in philosophy at the University of Rochester who works primarily in epistemology and metaphysics, the digital humanities. Previously a student at Western Michigan University and the University of Oxford, he also likes to learn code and make websites and explore the digital humanities.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nathanaelsmith.org" # the base hostname & protocol for your site
-twitter_username: nathanaeldsmith
+twitter_username: Philoso_Smith
 github_username:  ndsmith
 facebook_username: nathanael.d.smith
 
