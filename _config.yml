@@ -7,6 +7,7 @@ url: "http://nathanaelsmith.org" # the base hostname & protocol for your site
 twitter_username: Philoso_Smith
 github_username:  ndsmith
 facebook_username: nathanael.d.smith
+orcid_id: 0000-0001-7326-0389
 
 # Build settings
 markdown: kramdown
