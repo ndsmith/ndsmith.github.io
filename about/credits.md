@@ -4,9 +4,11 @@ title: Website Credits
 permalink: /about/credits
 ---
 
-- This website is built using <a href="https://jekyllrb.com">Jekyll</a>, and hosted for free at <a href="https://github.com">Github</a>. 
-- The design is my own modification of the out-of-the-box Jekyll theme <a href="https://github.com/jekyll/minima">Minima</a>. 
-- I was first inspired to construct this site after watching the YouTube tutorial videos by <a href="http://travisneilson.com">Travis Neilson</a>. Definitely check out his  <a href="https://www.youtube.com/user/DevTipsForDesigners/">YouTube Channel DevTipsforDesigners</a> if you're interested in learning how to create your own website from scratch.  
-- From time to time, I make use of free-to-use images. One of my favorite sites for these images is <a href="http://www.gratisography.com/">Gratisography</a>. 
-- I also have found the <a href="http://growthsupply.com/free/all/">list of free online resources</a> at <a href="http://growthsupply.com/">GrowthSupply.com</a> very helpful. 
-- My technical skills wouldn't be what they are without the patience and tutelage of folks in the <a href="https://humanities.lib.rochester.edu">Digital Scholarship Lab at the University of Rochester</a>. They are amazing people doing amazing work. I owe a great debt of grattitude to the technical wizards at the University of Rochester's 
+- This website is built using <a href="https://jekyllrb.com">Jekyll</a>, and hosted for free at <a href="https://github.com">Github</a>.
+- The design is my own modification of the out-of-the-box Jekyll theme <a href="https://github.com/jekyll/minima">Minima</a>.
+- I'm a big fan of <a href="https://reclaimhosting.com/">Reclaim Hosting</a>, a hosting service geared toward educators and institutions. Their service is versatile and user-friendly (even for less techy folks) and gives students, teachers, and researchers a great option for online publishing.
+- I was first inspired to construct this site after watching the YouTube tutorial videos by <a href="http://travisneilson.com">Travis Neilson</a> on the <a href="https://www.youtube.com/user/DevTipsForDesigners/">YouTube Channel DevTipsforDesigners</a>. Travis has since moved on to other things, but the channel is maintained by others and continues to produce guides and tips for those interested in nerding out with computer code.
+- I've also been variously influenced by the crew over at the <a href="https://researchhacking.slack.com/">Research Hacking slack</a>, especially <a href="http://goodbody.io/">Nicholas Cifuentes-Goodbody</a> who started the group. Nick also has some helpful <a href="https://www.youtube.com/channel/UCYspUZGexLdDLjHRkuERQlg">YouTube videos</a> with guides and advice for students and researchers looking to utilize technology in their scholarly work. 
+- From time to time, I make use of free-to-use images. One of my favorite sites for these images is <a href="http://www.gratisography.com/">Gratisography</a>.
+- I also have found the <a href="http://growthsupply.com/free/all/">list of free online resources</a> at <a href="http://growthsupply.com/">GrowthSupply.com</a> very helpful.
+- My technical skills wouldn't be what they are without the patience and tutelage of folks in the <a href="https://humanities.lib.rochester.edu">Digital Scholarship Lab at the University of Rochester</a>. They are amazing people doing amazing work. I owe a great debt of gratitude to the technical wizards at the University of Rochester's
