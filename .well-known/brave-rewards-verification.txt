@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nathanaelsmith.org
+Token: 56b1c357c3138fdd0e379696b44e593375d41040a78ca606b1162d33fee3c62c
