@@ -1,6 +1,8 @@
 /**
  * Site header
  */
+@use "sass:math"
+
 .site-header
   border-top: 5px solid $grey-color-dark
   border-bottom: 5px solid $grey-color-dark
@@ -66,7 +68,7 @@ nav
 
 .footer-heading
   font-size: 18px
-  margin-bottom: $spacing-unit / 2
+  margin-bottom: $spacing-unit * 0.5
 
 .contact-list
   list-style: none
@@ -84,13 +86,13 @@ nav
 .footer-col-wrapper
   font-size: 15px
   color: $grey-color
-  margin-left: -$spacing-unit / 2
+  margin-left: -$spacing-unit * 0.5
   @extend %clearfix
 
 .footer-col-1
   float: left
-  margin-bottom: $spacing-unit / 2
-  padding-left: $spacing-unit / 2
+  margin-bottom: $spacing-unit * 0.5
+  padding-left: $spacing-unit * 0.5
   @media (max-width: 390px)
     margin-bottom: 0px
     padding-bottom: 0px
@@ -98,13 +100,13 @@ nav
 .footer-col-3
   text-align: right
   float: right
-  margin-bottom: $spacing-unit / 2
-  padding-right: $spacing-unit / 2
+  margin-bottom: $spacing-unit * 0.5
+  padding-right: $spacing-unit * 0.5
   @media (max-width: 390px)
     text-align: left
     float: left
-    padding-left: $spacing-unit / 2
-    margin-top: -$spacing-unit / 2
+    padding-left: $spacing-unit * 0.5
+    margin-top: -$spacing-unit * 0.5
 
 /**
  * Page content
@@ -145,7 +147,7 @@ nav
     font-size: 16px
     text-align: center
     font-style: italic
-    padding: $spacing-unit /3
+    padding: math.div($spacing-unit, 3)
 
 .post-image-container-small
   margin-left: auto
@@ -158,7 +160,7 @@ nav
     font-size: 16px
     text-align: center
     font-style: italic
-    padding: $spacing-unit /3
+    padding: math.div($spacing-unit, 3)
 
 .rss-subscribe
   text-align: center
@@ -279,14 +281,14 @@ nav
     color: white
 .button-text
   font-size: $base-font-size
-  padding: $spacing-unit / 2
+  padding: $spacing-unit * 0.5
   text-align: center
 
 /**
  * Papers List
   */
 .paper-title
-  margin-bottom: $spacing-unit / 4
+  margin-bottom: $spacing-unit * 0.25
 .abstract
   font-size: $small-font-size
-  margin-left: $spacing-unit / 2
+  margin-left: $spacing-unit * 0.5
